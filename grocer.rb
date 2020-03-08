@@ -43,6 +43,7 @@ def apply_coupons(cart, coupons)
   new_cart_with_coupon = []
   pp coupons
   pp cart
+  pp cart
   
   
 end
