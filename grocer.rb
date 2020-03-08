@@ -26,6 +26,7 @@ def consolidate_cart(cart)
      new_cart_item = cart[item_index]
      pp cart[item_index]
      new_cart_item[item_index][:count] = 1
+     pp cart[item_index]
      new_cart << new_cart_item
    end
    item_index += 1
