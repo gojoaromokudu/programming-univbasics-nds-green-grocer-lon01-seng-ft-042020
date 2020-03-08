@@ -44,9 +44,15 @@ def apply_coupons(cart, coupons)
   pp coupons
   pp cart
   
-  counter = 0 
-  while counter < cart.length do 
-    
+  coupon_index = 0 
+  while coupon_index < coupons.length do 
+    item_with_coupon = find_item_by_name_in_collection(coupons[coupon_index][:item], cart)
+    if item_with_coupon
+      #rename the item 
+      #also check the quantity
+    else
+      
+    end
     counter += 1
   end
 end
