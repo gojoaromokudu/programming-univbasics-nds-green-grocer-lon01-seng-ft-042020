@@ -55,22 +55,22 @@ def consolidate_cart(cart)
   #  cart_item_is_duplicate = false
  # end
  # unique_item_index += 1
-#e#nd
+##e#nd
 
-if cart_item_is_duplicate
+#if cart_item_is_duplicate
 # not else
 #last thing to do here is to make the index dynamic, so that it will update the right count each time, depending on which item wer're adding
-pp all_unique_items_with_count[unique_item_index][:count] += 1
+#pp all_unique_items_with_count[unique_item_index][:count] += 1
 
- else
-   item_with_count = find_item_by_name_in_collection(cart[cart_item_index][:item],cart)
-   item_with_count[:count] = 1
-   all_unique_items_with_count << item_with_count
-  end
-    cart_item_index += 1 
-  end
+ #else
+  # item_with_count = find_item_by_name_in_collection(cart[cart_item_index][:item],cart)
+  # item_with_count[:count] = 1
+  # all_unique_items_with_count << item_with_count
+ # end
+  #  cart_item_index += 1 
+  #end
 
-  pp all_unique_items_with_count
+ # pp all_unique_items_with_count
 #end
 =end
 
