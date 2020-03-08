@@ -37,25 +37,25 @@ def consolidate_cart(cart)
  
  =begin
  # pp cart
-  all_unique_items_with_count = [{:count => 1, :name => "TEMPEH"}]
-  cart_item_index = 0 
-  while cart_item_index < cart.length do 
-   item_with_count = {}
+ # all_unique_items_with_count = [{:count => 1, :name => "TEMPEH"}]
+ #cart_item_index = 0 
+ # while cart_item_index < cart.length do 
+ #  item_with_count = {}
    
   # if 
 
-  cart_item_to_be_tested = cart[cart_item_index][:item]
-  unique_item_index = 0 
-  while unique_item_index < all_unique_items_with_count.length do
-  if cart_item_to_be_tested == all_unique_items_with_count[unique_item_index][:name]
-   # pp unique_item_index
-   cart_item_is_duplicate = true
-    duplicate_unique_item_index = unique_item_index
-  else
-    cart_item_is_duplicate = false
-  end
-  unique_item_index += 1
-end
+ # cart_item_to_be_tested = cart[cart_item_index][:item]
+ # unique_item_index = 0 
+#  while unique_item_index < all_unique_items_with_count.length do
+ # if cart_item_to_be_tested == all_unique_items_with_count[unique_item_index][:name]
+  # # pp unique_item_index
+  # cart_item_is_duplicate = true
+  #  duplicate_unique_item_index = unique_item_index
+  #else
+  #  cart_item_is_duplicate = false
+ # end
+ # unique_item_index += 1
+#e#nd
 
 if cart_item_is_duplicate
 # not else
