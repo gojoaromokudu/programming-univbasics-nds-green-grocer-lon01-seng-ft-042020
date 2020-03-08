@@ -71,7 +71,7 @@ pp all_unique_items_with_count[unique_item_index][:count] += 1
   end
 
   pp all_unique_items_with_count
-end
+#end
 
 def apply_coupons(cart, coupons)
   # Consult README for inputs and outputs
