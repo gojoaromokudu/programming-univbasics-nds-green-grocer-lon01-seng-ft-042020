@@ -43,9 +43,12 @@ def apply_coupons(cart, coupons)
   new_cart_with_coupon = []
   pp coupons
   pp cart
-  pp cart
   
-  
+  counter = 0 
+  while counter < cart.length do 
+    
+    counter += 1
+  end
 end
 
 def apply_clearance(cart)
