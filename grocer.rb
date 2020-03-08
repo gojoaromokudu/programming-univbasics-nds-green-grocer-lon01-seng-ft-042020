@@ -47,8 +47,8 @@ def apply_coupons(cart, coupons)
    item_with_coupon_name "#{coupons[coupon_index][:item]} W/COUPON"
    couponed_item = find_item_by_name_in_collection(item_with_coupon_name, cart)
    
-  #  if item_with_coupon
-      #rename the item 
+    if item_with_coupon && item_with_coupon[:counter] >= co
+      
       #also check the quantity
    # else
       
