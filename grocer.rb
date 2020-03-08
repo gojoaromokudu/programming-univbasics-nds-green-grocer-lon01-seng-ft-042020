@@ -40,19 +40,16 @@ def apply_coupons(cart, coupons)
   # Consult README for inputs and outputs
   #
   # REMEMBER: This method **should** update cart
-  new_cart_with_coupon = []
-  pp coupons
-  pp cart
   
   coupon_index = 0 
   while coupon_index < coupons.length do 
     item_with_coupon = find_item_by_name_in_collection(coupons[coupon_index][:item], cart)
-    if item_with_coupon
+  #  if item_with_coupon
       #rename the item 
       #also check the quantity
-    else
+   # else
       
-    end
+    #end
     counter += 1
   end
 end
